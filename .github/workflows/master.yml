@@ -24,7 +24,6 @@ jobs:
           libgtk-3-dev \
           libayatana-appindicator3-dev \
           librsvg2-dev
-          sudo curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sudo sh
           rustc --version
 
       - name: Build
