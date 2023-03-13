@@ -30,6 +30,11 @@ jobs:
           cd /home/runner/work/tauri-demo/tauri-demo # 进入项目目录
           npm install  # 安装依赖
           npm run tauri build  # 执行打包
+          cd src-tauri/target/release
+          ls
+          cd bundle
+          ls
+          cd msi
           ls
   
       # 连接到ssh，并且做一个拷贝操作的action
