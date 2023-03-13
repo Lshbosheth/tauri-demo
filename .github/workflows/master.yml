@@ -49,5 +49,5 @@ jobs:
          user: ${{ secrets.DR_USER }}
          pass: ${{ secrets.DR_PASS }}
          connect_timeout: 10s
-         local: '/home/runner/work/tauri-demo/tauri-demo/src-tauri/target/release/bundle/msi'
+         local: '/home/runner/work/tauri-demo/tauri-demo/src-tauri/target/release'
          remote: /home/download
