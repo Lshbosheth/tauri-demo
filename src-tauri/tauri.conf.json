@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "tauri-demo",
+    "productName": "lshbosheth",
     "version": "0.1.0"
   },
   "tauri": {
