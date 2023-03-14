@@ -16,15 +16,16 @@ jobs:
       - name: Build
         run: |
           rustup default stable-msvc
-          cd /home/runner/work/tauri-demo/tauri-demo # 进入项目目录
+          cd D:\a\tauri-demo\tauri-demo # 进入项目目录
+          dir
           npm install  # 安装依赖
           npm run tauri build  # 执行打包
           cd src-tauri/target/release
-          ls
+          dir
           cd bundle
-          ls
+          dir
           cd msi
-          ls
+          dir
   
       # 连接到ssh，并且做一个拷贝操作的action
       - name: Deploy 🚀
